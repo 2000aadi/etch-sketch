@@ -1,18 +1,32 @@
 /* styles.css */
+body {
+    text-align: center;
+}
 
 #innerContainer {
     display: flex;
     justify-content: center;
     margin: 2px;
     gap: 2px;
-    width: 60%;
+    flex: 1 1 0;
 }
 
 #container {
+    text-align: center;
     padding: 10px;
     text-align: center;
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 2px auto;
 }
 
 button {
     margin: 20px;
+}
+
+.blocks {
+    flex: 1 1 auto;
 }
